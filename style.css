@@ -54,9 +54,7 @@ body{
 .about{
     text-align: center;
     background-color: #d88383;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 20px;
+    padding: 20px;
 }
 
 .projects{
