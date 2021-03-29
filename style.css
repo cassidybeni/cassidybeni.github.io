@@ -91,7 +91,7 @@ body{
 #projectsHeading, #contactHeading, #aboutHeading{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: rgb(212, 207, 207);
     padding-top: 25px;
     margin-top: 0;
     font-size: 36px;
@@ -104,7 +104,7 @@ body{
 }
 
 .contact{
-    background-image: url(assets/IMG_1846.JPG);
+    background-image: url(assets/IMG_18462.JPG);
     background-size: cover;
     background-position: center;
     padding-top: 25px;
@@ -117,7 +117,7 @@ body{
     justify-items: center;
     font-weight: bold;
     margin-bottom: 50%;
-    color: rgb(82, 82, 82)
+    color: rgb(82, 82, 82);
 }
 
 .contactInfo ul{
@@ -147,7 +147,7 @@ footer{
     padding-bottom: 25px;
 }
 
-p{
+.info p{
     font-size: 16px;
     color: rgb(82, 82, 82);
     line-height: 2;
@@ -163,7 +163,7 @@ p{
 }
 
 #skillsHeading{
-    color: white;
+    color: rgb(212, 207, 207);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
     text-align: center;
@@ -190,7 +190,7 @@ p{
     display: inline-block;
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
-    color: rgb(38, 0, 109);
+    color: rgb(87, 87, 87);
     line-height: 1;
     padding: .6em 1.4em .5em .8em;
     width: 25%;
