@@ -164,30 +164,23 @@ p{
 #skillsHeading{
     color: white;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .backend, .frontend{
     display: none;
 }
 
-.showBackend, .showFrontend{
+.backend img, .frontend img{
     display: inline;
-}
-
-.showBackend img, .showFrontend img{
     text-align: center;
     height: 100px;
     width: auto;
-}
-
-.skillsImgs{
-    text-align: center;
-}
-
-.buttons{
-    text-align: center;
     padding-top: 100px;
-    padding-bottom: 100px;
+}
+
+.skills{
+    text-align: center;
 }
 
 #front, #back{

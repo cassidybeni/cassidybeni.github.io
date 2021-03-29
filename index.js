@@ -1,23 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    let front = document.querySelector("#front")
-    let back = document.querySelector("#back")
-    let frontendSection = document.querySelector(".frontend")
-    let backendSection = document.querySelector(".backend")
-    
+    let select = document.querySelector("select")
+    let frontend = document.querySelector(".frontend")
+    let backend = document.querySelector(".backend")
 
-    front.addEventListener("click", event => {
-        event.preventDefault() 
-        
-        frontendSection.classList.toggle("showFrontend")
+    select.addEventListener("change", () => {
+        if(select.value === "all"){
+            frontend.style.display = "inline"
+            backend.style.display = "inline"
+        } else if(select.value === "frontend") {
+            frontend.style.display = "inline"
+            backend.style.display = "none"
+        } else if(select.value === "backend"){
+            frontend.style.display = "none"
+            backend.style.display = "inline"
+        } else if(select.value === "--"){
+            frontend.style.display = "none"
+            backend.style.display = "none"
+        }
     })
-
-    back.addEventListener("click", event => {
-        event.preventDefault() 
-
-        backendSection.classList.toggle("showBackend")
-        
-    })
-
-
 })
