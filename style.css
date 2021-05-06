@@ -76,6 +76,11 @@ body{
     padding: 20px;
 }
 
+#calculator, #p2title{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
 .project1 img, .project2 img, .info img{
     display: flex;
     max-width: 100%;
