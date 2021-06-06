@@ -71,6 +71,10 @@ body{
     align-items: center;
 }
 
+#yt{
+    height: 300px;
+}
+
 .description1, .description2{
     text-align: center;
     padding: 20px;
