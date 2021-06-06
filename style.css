@@ -1,249 +1,270 @@
-body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0;
-    margin: 0;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-.homepage{
-    background-image: url(assets/clouds.jpg);
-    display: flex;
-    justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.homepage {
+  background-image: url(assets/clouds.jpg);
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-#name{
-    margin-top: 25%;
-    margin-bottom: 30%;
+#name {
+  margin-top: 25%;
+  margin-bottom: 30%;
 }
 
 .name {
-    animation: blinker 1s linear infinite;
+  animation: blinker 1s linear infinite;
 }
-  
+
 @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
+  50% {
+    opacity: 0;
+  }
 }
 
-.nav{
-    position: fixed;
-    right: 0;
-    list-style-type: none;
+.nav {
+  position: fixed;
+  right: 0;
+  list-style-type: none;
 }
 
-.nav a{
-    color: whitesmoke;
-    font-size: 14px;
-    text-decoration: none;
-    font-weight: bold;
-    padding-right: 20px;
+.nav a {
+  color: whitesmoke;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 20px;
 }
 
-.nav a:visited{
-    color: whitesmoke;
+.nav a:visited {
+  color: whitesmoke;
 }
 
-.nav a:hover, .projects a:hover{
-    color: #2c5e56;
+.nav a:hover,
+.projects a:hover {
+  color: #2c5e56;
 }
 
-.about{
-    text-align: center;
-    background-color: #d88383;
-    padding: 20px;
+.about {
+  text-align: center;
+  background-color: #d88383;
+  padding: 20px;
 }
 
-.projects{
-    background-color: #47AB98;
-    font: bold;
-    color: rgb(82, 82, 82);
-    padding-top: 25px;
-    padding-bottom: 25px;
+.projects {
+  background-color: #47ab98;
+  font: bold;
+  color: rgb(82, 82, 82);
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-.project1, .project2, .info{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+.project1,
+.project2,
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
-#yt{
-    height: 300px;
+#yt {
+  height: 350px;
+  width: auto;
 }
 
-.description1, .description2{
-    text-align: center;
-    padding: 20px;
+.description1,
+.description2 {
+  text-align: center;
+  padding: 20px;
 }
 
-#calculator, #p2title{
-    font-size: 20px;
-    text-decoration: underline;
+#calculator,
+#p2title {
+  font-size: 20px;
+  text-decoration: underline;
 }
 
-.project1 img, .project2 img, .info img{
-    display: flex;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
+.project1 img,
+.project2 img,
+.info img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#projectsHeading, #contactHeading, #aboutHeading{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(77, 76, 76);
-    padding-top: 25px;
-    margin-top: 0;
-    font-size: 36px;
+#projectsHeading,
+#contactHeading,
+#aboutHeading {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(77, 76, 76);
+  padding-top: 25px;
+  margin-top: 0;
+  font-size: 36px;
 }
 
-.projects a{
-    color: rgb(82, 82, 82);
-    text-decoration: none;
-    font-weight: bold;
+.projects a {
+  color: rgb(82, 82, 82);
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.contact{
-    background-image: url(assets/IMG_18462.JPG);
-    background-size: cover;
-    background-position: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.contact {
+  background-image: url(assets/IMG_18462.JPG);
+  background-size: cover;
+  background-position: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-.contactInfo{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    font-weight: bold;
-    margin-bottom: 50%;
-    color: rgb(82, 82, 82);
+.contactInfo {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  font-weight: bold;
+  margin-bottom: 50%;
+  color: rgb(82, 82, 82);
 }
 
-.contactInfo ul{
-    padding: 0%;
+.contactInfo ul {
+  padding: 0%;
 }
 
-.contactInfo li{
-    padding-right: 20px;
-    padding-left: 20px;
+.contactInfo li {
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-ul{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
 }
 
-li img{
-    height: 50px;
+li img {
+  height: 50px;
 }
 
-footer{
-    text-align: center;
-    color: rgb(82, 82, 82);
-    background-color: #CBA6C6;
-    padding-top: 25px;
-    padding-bottom: 25px;
+footer {
+  text-align: center;
+  color: rgb(82, 82, 82);
+  background-color: #cba6c6;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-.info p, .description1 p, .description2 p{
-    text-align: center;
-    font-size: 16px;
-    color: rgb(82, 82, 82);
-    line-height: 2;
-    padding: 20px;
+.info p,
+.description1 p,
+.description2 p {
+  text-align: center;
+  font-size: 16px;
+  color: rgb(82, 82, 82);
+  line-height: 2;
+  padding: 20px;
 }
 
-.skills{
-    background-image: url(assets/27C9C10D-E74D-410D-A9A9-8730AACD9026.jpg);
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    padding-top: 25px;
-    padding-bottom: 50%;
+.skills {
+  background-image: url(assets/27C9C10D-E74D-410D-A9A9-8730AACD9026.jpg);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 50%;
 }
 
-#skillsHeading{
-    color: rgb(212, 207, 207);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 36px;
-    text-align: center;
-    padding-bottom: 100px;
+#skillsHeading {
+  color: rgb(212, 207, 207);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 100px;
 }
 
-.backend, .frontend{
-    display: none;
+.backend,
+.frontend {
+  display: none;
 }
 
-.backend img, .frontend img{
-    display: inline;
-    text-align: center;
-    height: 100px;
-    width: auto;
-    padding-top: 100px;
+.backend img,
+.frontend img {
+  display: inline;
+  text-align: center;
+  height: 100px;
+  width: auto;
+  padding-top: 100px;
 }
 
-.skills, .selectContainer{
-    text-align: center;
+.skills,
+.selectContainer {
+  text-align: center;
 }
 
-#select{
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Oswald', sans-serif;
-    color: rgb(87, 87, 87);
-    line-height: 1;
-    padding: .6em 1.4em .5em .8em;
-    width: 25%;
-    max-width: 25%;
-    box-sizing: border-box;
-    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
-    border-radius: 5px;
-    background-color: lavender;
+#select {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  color: rgb(87, 87, 87);
+  line-height: 1;
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  width: 25%;
+  max-width: 25%;
+  box-sizing: border-box;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+  background-color: lavender;
 }
 
 @media (max-width: 800px) {
-   .nav{
+  .nav {
     display: none;
-   }
+  }
 
-   .contactInfo{
+  .contactInfo {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-   }
+  }
 
-   .project1, .project2{
+  #yt {
+    height: fit-content;
+    width: auto;
+  }
+
+  .project1,
+  .project2 {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-left: 25px;
     padding-right: 25px;
-   }
+  }
 
-   .info{
+  .info {
     display: flex;
     flex-direction: column;
-   }
+  }
 
-   .info img{
+  .info img {
     height: 350px;
     width: auto;
-   }
+  }
 
-    .homepage img{
+  .homepage img {
     height: 50px;
     width: auto;
-   }
-
+  }
 }
