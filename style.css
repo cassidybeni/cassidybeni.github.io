@@ -240,6 +240,7 @@ footer {
   }
 
   #yt {
+    display: flex;
     height: fit-content;
     width: auto;
   }
