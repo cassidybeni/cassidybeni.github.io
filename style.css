@@ -123,7 +123,7 @@ body {
 }
 
 .contact {
-  background-image: url(assets/IMG_18462.JPG);
+  background-image: url(assets/IMG_4529.jpg);
   background-size: cover;
   background-position: center;
   padding-top: 25px;
@@ -136,7 +136,7 @@ body {
   justify-items: center;
   font-weight: bold;
   margin-bottom: 50%;
-  color: rgb(82, 82, 82);
+  color: white;
 }
 
 .contactInfo ul {
@@ -185,8 +185,8 @@ footer {
   padding-bottom: 50%;
 }
 
-#skillsHeading {
-  color: rgb(212, 207, 207);
+#skillsHeading, #contactHeading {
+  color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 36px;
   text-align: center;
