@@ -154,8 +154,8 @@ ul {
   list-style-type: none;
 }
 
-li img {
-  height: 50px;
+li svg {
+  fill: rgb(102, 189, 94);
 }
 
 footer {
