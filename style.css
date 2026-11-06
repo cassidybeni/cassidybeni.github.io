@@ -66,6 +66,15 @@ body > section {
   padding: 20px;
 }
 
+.about,
+.skills,
+.projects,
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .projects {
   background-color: #47ab98;
   color: rgb(82, 82, 82);
@@ -110,7 +119,8 @@ body > section {
 
 #projectsHeading,
 #contactHeading,
-#aboutHeading {
+#aboutHeading,
+#skillsHeading {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(77, 76, 76);
@@ -138,7 +148,6 @@ body > section {
   grid-template-columns: 1fr;
   justify-items: center;
   font-weight: bold;
-  margin-bottom: 50%;
   color: white;
 }
 
@@ -184,15 +193,11 @@ footer {
   background-size: cover;
   background-position: center;
   padding-top: 25px;
-  padding-bottom: 50%;
 }
 
-#skillsHeading, #contactHeading {
+#skillsHeading,
+#contactHeading {
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 36px;
-  text-align: center;
-  padding-bottom: 100px;
 }
 
 .backend,
@@ -271,7 +276,8 @@ footer {
   }
 
   #name {
-    width: min(80vw, 36rem);
+    width: 80vw;
+    max-width: 36rem;
     height: auto;
     margin: 0;
   }
@@ -303,7 +309,8 @@ footer {
   }
 
   #yt {
-    max-width: min(100%, 30rem);
+    width: 100%;
+    max-width: 30rem;
     height: auto;
     margin: auto;
     padding: 1rem 0;
@@ -330,7 +337,8 @@ footer {
   }
 
   .info img {
-    width: min(70vw, 22rem);
+    width: 70vw;
+    max-width: 22rem;
     max-height: 45svh;
     object-fit: contain;
   }
@@ -353,7 +361,7 @@ footer {
   }
 
   #select {
-    width: min(100%, 18rem);
-    max-width: 100%;
+    width: 100%;
+    max-width: 18rem;
   }
 }
