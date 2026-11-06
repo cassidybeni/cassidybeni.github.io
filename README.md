@@ -36,6 +36,10 @@ For more inspiration, here are some personal sites from alums!
 1. Clone the forked repo to your machine
 1. `cd` to the cloned folder and write your code!
 
+## GitHub Pages deployment
+
+Before the deployment workflow can publish the site, set the repository's Pages source to **GitHub Actions** in **Settings > Pages**. The workflow token cannot enable Pages automatically.
+
 ## Submission Instructions
 
 1. Complete the project
