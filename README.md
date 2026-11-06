@@ -38,7 +38,7 @@ For more inspiration, here are some personal sites from alums!
 
 ## GitHub Pages deployment
 
-Before the deployment workflow can publish the site, set the repository's Pages source to **GitHub Actions** in **Settings > Pages**. The workflow token cannot enable Pages automatically.
+The deployment workflow can enable Pages automatically when the repository has a `PAGES_TOKEN` Actions secret containing a personal access token with Pages write permission (or the classic `repo` scope). Alternatively, set the repository's Pages source to **GitHub Actions** in **Settings > Pages**; then the workflow can deploy with its default token.
 
 ## Submission Instructions
 
