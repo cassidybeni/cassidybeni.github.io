@@ -1,22 +1,19 @@
-document.addEventListener("DOMContentLoaded", () => {
+const skillFilter = document.querySelector("#select");
+const skillGroups = {
+    frontend: document.querySelector(".frontend"),
+    backend: document.querySelector(".backend"),
+};
+const visibleGroupsByFilter = {
+    "--": [],
+    all: ["frontend", "backend"],
+    frontend: ["frontend"],
+    backend: ["backend"],
+};
 
-    let select = document.querySelector("select")
-    let frontend = document.querySelector(".frontend")
-    let backend = document.querySelector(".backend")
+skillFilter.addEventListener("change", () => {
+    const visibleGroups = visibleGroupsByFilter[skillFilter.value];
 
-    select.addEventListener("change", () => {
-        if(select.value === "all"){
-            frontend.style.display = "inline"
-            backend.style.display = "inline"
-        } else if(select.value === "frontend") {
-            frontend.style.display = "inline"
-            backend.style.display = "none"
-        } else if(select.value === "backend"){
-            frontend.style.display = "none"
-            backend.style.display = "inline"
-        } else if(select.value === "--"){
-            frontend.style.display = "none"
-            backend.style.display = "none"
-        }
-    })
-})
+    for (const [groupName, groupElement] of Object.entries(skillGroups)) {
+        groupElement.style.display = visibleGroups.includes(groupName) ? "inline" : "none";
+    }
+});
